@@ -1,0 +1,12 @@
+[submodule "tool"]
+	path = tool
+	url = ./tool/
+[submodule "dv-kernel-driver"]
+	path = dv-kernel-driver
+	url = ./dv-kernel-driver/
+[submodule "dv-user-driver"]
+	path = dv-user-driver
+	url = ./dv-user-driver/
+[submodule "application"]
+	path = application
+	url = ./application
