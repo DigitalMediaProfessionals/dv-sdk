@@ -1,12 +1,12 @@
 [submodule "tool"]
 	path = tool
-	url = ./tool/
+	url = http://zonghong.lyu@gitlab/zonghong.lyu/tool.git
 [submodule "dv-kernel-driver"]
 	path = dv-kernel-driver
-	url = ./dv-kernel-driver/
+	url = http://zonghong.lyu@gitlab/zonghong.lyu/dv-kernel-driver.git
 [submodule "dv-user-driver"]
 	path = dv-user-driver
-	url = ./dv-user-driver/
+	url = http://zonghong.lyu@gitlab/zonghong.lyu/dv-user-driver.git
 [submodule "application"]
 	path = application
-	url = ./application
+	url = http://zonghong.lyu@gitlab/zonghong.lyu/application.git
