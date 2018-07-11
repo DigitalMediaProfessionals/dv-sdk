@@ -1,12 +1,12 @@
 [submodule "tool"]
 	path = tool
-	url = git@gitlab:CyberAI/tool.git
+	url = ../tool.git
 [submodule "dv-kernel-driver"]
 	path = dv-kernel-driver
-	url = git@gitlab:CyberAI/dv-kernel-driver.git
+	url = ../dv-kernel-driver.git
 [submodule "dv-user-driver"]
 	path = dv-user-driver
-	url = git@gitlab:CyberAI/dv-user-driver.git
+	url = ../dv-user-driver.git
 [submodule "application"]
 	path = application
-	url = git@gitlab:CyberAI/application.git
+	url = ../application.git
