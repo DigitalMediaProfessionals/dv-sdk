@@ -1,5 +1,4 @@
 SUBDIRS = \
-	dv-kernel-driver \
 	dv-user-driver/src \
 	application
 
