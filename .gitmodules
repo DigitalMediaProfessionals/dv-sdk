@@ -10,3 +10,6 @@
 [submodule "application"]
 	path = application
 	url = ../application.git
+[submodule "dv-fb-driver"]
+	path = dv-fb-driver
+	url = ../dv-fb-driver.git
