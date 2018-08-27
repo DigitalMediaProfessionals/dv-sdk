@@ -6,8 +6,8 @@ BDDEF=DMP_ZC706
 ifeq ($(ARCH), arm-linux-gnueabihf)
 
 # For on-board compiling
-GPP=g++ -fPIC -mfp16-format=ieee
-GCC=gcc -fPIC -mfp16-format=ieee
+GPP=g++ -fPIC -mfp16-format=ieee -march=native -mtune=native
+GCC=gcc -fPIC -mfp16-format=ieee -march=native -mtune=native
 
 else
 
