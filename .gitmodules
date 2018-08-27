@@ -7,9 +7,9 @@
 [submodule "dv-user-driver"]
 	path = dv-user-driver
 	url = ../dv-user-driver.git
-[submodule "application"]
-	path = application
-	url = ../application.git
 [submodule "dv-fb-driver"]
 	path = dv-fb-driver
 	url = ../dv-fb-driver.git
+[submodule "application"]
+	path = application
+	url = ../application
