@@ -1,15 +1,15 @@
-[submodule "tool"]
-	path = tool
-	url = ../tool.git
-[submodule "dv-kernel-driver"]
-	path = dv-kernel-driver
-	url = ../dv-kernel-driver.git
-[submodule "dv-user-driver"]
-	path = dv-user-driver
-	url = ../dv-user-driver.git
-[submodule "dv-fb-driver"]
-	path = dv-fb-driver
-	url = ../dv-fb-driver.git
 [submodule "application"]
 	path = application
 	url = ../application
+[submodule "dv-user-driver"]
+	path = dv-user-driver
+	url = ../dv-user-driver
+[submodule "dv-fb-driver"]
+	path = dv-fb-driver
+	url = ../dv-fb-driver
+[submodule "dv-kernel-driver"]
+	path = dv-kernel-driver
+	url = ../dv-kernel-driver
+[submodule "tool"]
+	path = tool
+	url = ../tool
