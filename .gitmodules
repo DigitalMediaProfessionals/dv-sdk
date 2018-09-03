@@ -1,15 +1,20 @@
 [submodule "application"]
 	path = application
 	url = ../application
+	branch = master
 [submodule "dv-user-driver"]
 	path = dv-user-driver
 	url = ../dv-user-driver
+	branch = master
 [submodule "dv-fb-driver"]
 	path = dv-fb-driver
 	url = ../dv-fb-driver
+	branch = master
 [submodule "dv-kernel-driver"]
 	path = dv-kernel-driver
 	url = ../dv-kernel-driver
+	branch = master
 [submodule "tool"]
 	path = tool
 	url = ../tool
+	branch = master

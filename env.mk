@@ -2,9 +2,6 @@ OPT=-O3
 
 ARCH=$(shell gcc -print-multiarch)
 
-# For Xilinx ZC706
-BDDEF=DMP_ZC706
-
 ifeq ($(ARCH), arm-linux-gnueabihf)
 
 # For on-board compiling (32-bit ARM)
@@ -31,8 +28,3 @@ GCC=$(ARMGCC)/arm-linux-gnueabihf-gcc -fPIC -mfp16-format=ieee
 endif
 
 endif
-
-# For Arria 10
-#ARMGCC := /home/steven.olney/fpgaExpt/a10DevKit/gcc-linaro-arm-linux-gnueabihf-4.8-2014.03_linux/bin/
-#GPP := $(ARMGCC)/arm-linux-gnueabihf-g++ -fPIC -mfp16-format=ieee
-#BDDEF := DMP_ARRIA10
