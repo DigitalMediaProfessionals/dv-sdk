@@ -1,5 +1,5 @@
 SUBDIRS = \
-	dv-user-driver/src \
+	dv-user-driver \
 	application
 
 .PHONY: all clean
