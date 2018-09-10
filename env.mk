@@ -18,7 +18,9 @@ GCC=gcc -march=native -mtune=native
 
 else
 
-# For Cross-compiling using Xilinx software
+# For Cross-compiling setup GPP and GCC variables
+
+# Example when using Xilinx software and 32-bit ARM
 SDK=/usr/local/tools/xilinx/Vivado_2018.1_0405_1/SDK/2018.1
 SUFFIX=gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin
 ARMGCC=$(SDK)/$(SUFFIX)
