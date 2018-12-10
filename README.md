@@ -9,11 +9,10 @@ $ cd dv-sdk
 $ git submodule init
 $ git submodule update --remote
 ```
-**NOTE**: Currently all submodules are private so only DMP team members can access them.
 
 ## Build
 
-Please edit the env.mk and set the first variable to where the binaries of cross compiler are located.
+All modules in the SDK can be directly built on the distributed Ubuntu environment on the board. If one wants to cross compile on a PC, please edit the env.mk and set the first variable to where the binaries of cross compiler are located.
 
 ## Wiki
 
