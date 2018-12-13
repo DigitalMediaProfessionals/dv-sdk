@@ -4,10 +4,7 @@
 
 Use the following commands to get all SDK repositories.
 ```console
-$ git clone https://github.com/DigitalMediaProfessionals/dv-sdk
-$ cd dv-sdk
-$ git submodule init
-$ git submodule update --remote
+$ git clone https://github.com/DigitalMediaProfessionals/dv-sdk --recurse-submodules
 ```
 
 ## Build
