@@ -1,5 +1,7 @@
 # DV SDK
 
+This repository controls version of each submodule repositories.
+
 ## Get repositories
 
 Use the following commands to get all SDK repositories.
