@@ -1,6 +1,6 @@
 # DV SDK
 
-This repository controls version of each submodule repositories.
+The SDK is composed by several submodules, this repository controls version of each submodule repositories.
 
 ## Get repositories
 
