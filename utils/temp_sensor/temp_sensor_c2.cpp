@@ -18,14 +18,16 @@
 #include <sys/types.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <time.h>
 
 #include <cstring>
 #include <cerrno>
 #include <iostream>
 
-int show_temp(volatile uint32_t *base_addr, unsigned interval = 1)
+int show_temp(volatile uint32_t *base_addr, unsigned interval = 0)
 {
 	volatile uint32_t *val_addr = base_addr + 1;
+	clock_t start = clock();
 	while (1) {
 		*base_addr = 1; // reset
 		usleep(1);
@@ -33,7 +35,7 @@ int show_temp(volatile uint32_t *base_addr, unsigned interval = 1)
 		usleep(1);
 
 		*base_addr = 0x10; // clock enable
-		sleep(interval);
+		sleep(1);
 		*base_addr = 0x00; // clock disable
 
 		uint32_t val = *val_addr;
@@ -43,6 +45,9 @@ int show_temp(volatile uint32_t *base_addr, unsigned interval = 1)
 		} else {
 			std::cerr << "Failed to get temperature" << std::endl;
 			return -1;
+		}
+		if (interval != 0 && clock() - start > interval * CLOCKS_PER_SEC) {
+			return 0;
 		}
 	}
 
@@ -66,7 +71,7 @@ int main(int argc, char const* argv[])
 	long pgsz = sysconf(_SC_PAGE_SIZE);
 	off_t off = dev_addr % pgsz;
 	off_t base = dev_addr - off;
-	unsigned interval = 1;
+	unsigned interval = 0;
 
 	if (argc > 1) {
 		interval = std::atoi(argv[1]);
