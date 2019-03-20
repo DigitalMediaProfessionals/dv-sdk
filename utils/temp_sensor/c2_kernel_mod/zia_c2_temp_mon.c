@@ -51,7 +51,6 @@ static ssize_t show_temp1_input(struct device *dev,
 	}
 }
 
-/* shunt voltage */
 static SENSOR_DEVICE_ATTR(temp1_input, S_IRUGO, show_temp1_input, NULL, 0);
 
 /* pointers to created device attributes */
