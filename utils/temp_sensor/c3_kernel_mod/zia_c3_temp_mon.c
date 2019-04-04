@@ -89,9 +89,9 @@ static struct attribute *zia_c3_temp_attrs[] = {
 	&sensor_dev_attr_temp_psfpd_input.dev_attr.attr,
 	&sensor_dev_attr_temp_psfpd_min.dev_attr.attr,
 	&sensor_dev_attr_temp_psfpd_max.dev_attr.attr,
-	&sensor_dev_attr_temp_plfpd_input.dev_attr.attr,
-	&sensor_dev_attr_temp_plfpd_min.dev_attr.attr,
-	&sensor_dev_attr_temp_plfpd_max.dev_attr.attr,
+	&sensor_dev_attr_temp_pllpd_input.dev_attr.attr,
+	&sensor_dev_attr_temp_pllpd_min.dev_attr.attr,
+	&sensor_dev_attr_temp_pllpd_max.dev_attr.attr,
 	NULL,
 };
 
