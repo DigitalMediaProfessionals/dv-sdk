@@ -2,7 +2,7 @@
 
 1. Build this kernel module by `make` here.
 2. Install the module by `sudo insmod zia_c3_temp_mon.ko`
-3. Run `./show_temp.sh`
+3. Run `dv-sdk/utils/scripts/show_temp.sh`
 
 # How to Calculate Tempature
 Value from `/sys/class/hwmon/hwmon*[0-9]+/temp*` does not show tempature.

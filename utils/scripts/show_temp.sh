@@ -23,5 +23,5 @@ do
 	fi
 done
 
-echo "[ERROR] zia_c3_tempature_monitor hwmon is not found" >&2
+echo "[ERROR] No hwmon for tempature of AI FPGA Module is not found" >&2
 exit -1
