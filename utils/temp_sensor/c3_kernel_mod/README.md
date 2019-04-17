@@ -4,5 +4,5 @@ To get tempature, we need convert the value to tempature by the following
 equation.
 
 ```
-tempature = <the value> / 65536.0 / 0x00196342531f - 280.2309f
+tempature = <the value> / 65536.0 / 0.00196342531f - 280.2309f
 ```
