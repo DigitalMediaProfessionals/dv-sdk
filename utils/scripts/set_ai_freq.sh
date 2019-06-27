@@ -1,7 +1,7 @@
 #!/bin/bash
 
 freq=$1
-max_freq=316
+max_freq=333
 min_freq=50
 
 sysfs_conv_freq=/sys/class/dmp_dv/dv_conv/conv_freq
