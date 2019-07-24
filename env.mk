@@ -1,4 +1,4 @@
-OPT=-O3
+OPT=-O3 -fno-strict-aliasing -fwrapv
 
 ARCH=$(shell gcc -print-multiarch)
 
